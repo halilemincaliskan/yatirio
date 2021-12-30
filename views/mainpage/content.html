@@ -1,0 +1,234 @@
+<div class="row">
+    <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-left-success shadow h-100 py-2">
+            <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                            Bakiyendeki Dolar</div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">{{.DollarBalance}}</div>
+                    </div>
+                    </br>
+                    <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                            Değeri</div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800" id="dolar-degeri">₺{{.DollarValue}}</div>
+                    </div>
+                    <div class="col-auto">
+                        <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Earnings (Annual) Card Example -->
+    <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-left-success shadow h-100 py-2">
+            <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                            Bakiyendeki Bitcoin</div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">{{.BitcoinBalance}}</div>
+                    </div>
+                    </br>
+                    <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                            Değeri</div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800" id="bitcoin-degeri">₺{{.BitcoinValue}}</div>
+                    </div>
+                    <div class="col-auto">
+                        <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tasks Card Example -->
+    <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-left-success shadow h-100 py-2">
+            <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                            Bakiyendeki Ethereum</div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">{{.EthereumBalance}}</div>
+                    </div>
+                    </br>
+                    <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                            Değeri</div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800" id="ethereum-degeri">₺{{.EthereumValue}}</div>
+                    </div>
+                    <div class="col-auto">
+                        <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pending Requests Card Example -->
+    <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-left-success shadow h-100 py-2">
+            <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                            Bakiyendeki Doge</div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">{{.DogeBalance}}</div>
+                    </div>
+                    </br>
+                    <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                            Değeri</div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800" id="doge-degeri">₺{{.DogeValue}}</div>
+                    </div>
+                    <div class="col-auto">
+                        <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-left-success shadow h-100 py-2">
+            <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                            Dolar Kuru</div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">₺{{.DollarRate}}</div>
+                    </div>
+                    <div class="col-auto">
+                        <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Earnings (Annual) Card Example -->
+    <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-left-success shadow h-100 py-2">
+            <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                            Bitcoin Kuru</div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">₺{{.BitcoinRate}}</div>
+                    </div>
+                    <div class="col-auto">
+                        <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tasks Card Example -->
+    <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-left-success shadow h-100 py-2">
+            <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                            Ethereum Kuru</div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">₺{{.EthereumRate}}</div>
+                    </div>
+                    <div class="col-auto">
+                        <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pending Requests Card Example -->
+    <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-left-success shadow h-100 py-2">
+            <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                        <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                            Doge Kuru</div>
+                        <div class="h5 mb-0 font-weight-bold text-gray-800">₺{{.DogeRate}}</div>
+                    </div>
+                    <div class="col-auto">
+                        <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-3">
+        <form action="/mainpage/dollar/buy" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label>Miktar</label>
+                <input type="text" name="dollar-buy-value" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success w-100 my-3">Dolar Al</button>
+        </form>
+        <form action="/mainpage/dollar/sell" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label>Miktar</label>
+                <input type="text" name="dollar-sell-value" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success w-100 my-3">Dolar Sat</button>
+        </form>
+    </div>
+    <div class="col-3">
+        <form action="/mainpage/bitcoin/buy" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label>Miktar</label>
+                <input type="text" name="bitcoin-buy-value" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success w-100 my-3">Bitcoin Al</button>
+        </form>
+        <form action="/mainpage/bitcoin/sell" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label>Miktar</label>
+                <input type="text" name="bitcoin-sell-value" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success w-100 my-3">Bitcoin Sat</button>
+        </form>
+    </div>
+    <div class="col-3">
+        <form action="/mainpage/ethereum/buy" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label>Miktar</label>
+                <input type="text" name="ethereum-buy-value" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success w-100 my-3">Ethereum Al</button>
+        </form>
+        <form action="/mainpage/ethereum/sell" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label>Miktar</label>
+                <input type="text" name="ethereum-sell-value" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success w-100 my-3">Ethereum Sat</button>
+        </form>
+    </div>
+    <div class="col-3">
+        <form action="/mainpage/doge/buy" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label>Miktar</label>
+                <input type="text" name="doge-buy-value" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success w-100 my-3">Doge Al</button>
+        </form>
+        <form action="/mainpage/doge/sell" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label>Miktar</label>
+                <input type="text" name="doge-sell-value" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success w-100 my-3">Doge Sat</button>
+        </form>
+    </div>
+</div>

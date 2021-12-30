@@ -1,0 +1,9 @@
+{{ if .isAlert }}
+<script>
+  iziToast.show({
+      title: '{{.message}}',
+      position: 'topCenter',
+      theme: 'dark'
+  })
+</script>
+{{ end }}
